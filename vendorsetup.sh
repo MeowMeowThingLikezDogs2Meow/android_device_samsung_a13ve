@@ -71,7 +71,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
  export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
 
  # Disable Flashlight & Green LED
- export OF_FLASHLIGHT_ENABLE=0
+ export OF_FLASHLIGHT_ENABLE=1
  export OF_USE_GREEN_LED=0
 
  # Fix zip install issues on >R11 
