@@ -59,8 +59,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
  # Fix OrangeFox hanging on Android >12 because of unsuccesful decryption attempts :(
  # Remove when proper decryption support is implemented/present
- export OF_SKIP_FBE_DECRYPTION_SDKVERSION=31
- export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
+ export OF_SKIP_FBE_DECRYPTION_SDKVERSION=35
+ export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=0
 
  # CCACHE
  export USE_CCACHE=1
